@@ -1,0 +1,84 @@
+/* Genel Ayarlar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    max-width: 500px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+/* Profil Resmi */
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #764ba2;
+    object-fit: cover;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+}
+
+.profile-img:hover {
+    transform: scale(1.05);
+}
+
+h1 {
+    font-size: 1.8rem;
+    color: #2d3436;
+}
+
+.subtitle {
+    color: #636e72;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+/* Kartlar */
+.card {
+    background: #f9f9f9;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.card h3 {
+    color: #764ba2;
+    margin-bottom: 8px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+}
+
+.hobi-list {
+    list-style: none;
+}
+
+.hobi-list li {
+    margin: 5px 0;
+    font-size: 0.95rem;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color: #b2bec3;
+}
